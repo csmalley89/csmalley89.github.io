@@ -13,6 +13,7 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+  font-size: 1.2rem;
 }
 
 .button-collapse {
@@ -62,14 +63,32 @@ footer.page-footer {
 }
 
 .techLogoDiv {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .techLogo {
   margin: auto;
-  width: 70px;
+  width: 60px;
 }
 .no-btm-margin {
   margin-bottom: 0;
+}
+
+/*CONTACT SECTION ------------------------------*/
+#contact {
+  background-color: #212121 ;
+  color: #f5f5f5;
+}
+
+#contact p {
+  margin: 5px 0;
+}
+
+#contact a {
+  color: #f5f5f5;
+}
+
+#contact a:hover {
+  color: #2196F3;
 }
