@@ -1,69 +1,264 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Chris Smalley | Student</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chris Smalley | Software Developer</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <link rel="stylesheet" href="/css/main.css">
   </head>
-  <body>
-    <header>
-      <a href="index.html" id=logo>
-        <h1>Chris Smalley</h1>
-        <h2>Student</h2>
-      </a>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="selected">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div id="wrapper">
-      <section>
-        <ul id="gallery">
-          <li>
-            <a href="img/numbers-01.jpg">
-              <img src="img/numbers-01.jpg" alt="">
-              <p>Experimentation with color and texture</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-02.jpg">
-              <img src="img/numbers-02.jpg" alt="">
-              <p>Playing with blending modes in photoshop</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-06.jpg">
-              <img src="img/numbers-06.jpg" alt="">
-              <p>Trying to create an 80s style of glows</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-09.jpg">
-              <img src="img/numbers-09.jpg" alt="">
-              <p>Drips created using photoshop brushes</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-12.jpg">
-              <img src="img/numbers-12.jpg" alt="">
-              <p>Creating shapes using repetition.</p>
-            </a>
-          </li>
-        </ul>
-      </section>
-      <footer>
-        <a href="http://twiter.com/rowdymcfrat"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-        <a href="https://www.facebook.com/christopher.smalley"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-        <a href="https://www.linkedin.com/pub/chris-smalley/63/2a4/8a2"><img src="img/linkedin-wrap.png" alt="Linkedin Profile" class="social-icon"></a>
-        <p>&copy; 2016 Chris Smalley.</p>
-      </footer>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Chris Smalley</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Technologies</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Technologies</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse blue-text accent-2"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+<!--         <h1 class="header center text-light">Hi I'm <span class="blue-text accent-2">Chris Smalley</span></h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Full-Stack Developer from Nashville, TN</h5>
+        </div>
+        <div class="row center hide-on-small-only">
+          <div class="col m3"><img src="/img/squarepic.jpg" alt="" class="circle responsive-img"></div>
+        </div> -->
+        <div class="row">
+          <div class="col m3 hide-on-small-only">
+            <img src="/img/squarepic.jpg" alt="" class="circle responsive-img">
+          </div>
+          <div class="col s12 m8 offset-m1"><h1 class="header center-align  text-light">Hi I'm <span class="blue-text accent-2">Chris Smalley</span></h1>
+          <h5 class="header center col s12 light">Full-Stack Developer from Nashville, TN</h5></div>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="/img/macbookbw.jpg" alt="macbook background img 1"></div>
   </div>
+<!-- Technolgy Section -->
+  <div id="technology" class="grey darken-4">
+    <div class="section">
+      <div class="container">
+
+        <div class="row no-btm-margin">
+            <h4 class="header center">&lt;/Technologies&gt;</h4>
+          <div class="row no-btm-margin">
+
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/html5.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/css3.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/jslogo.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/jquery.png" alt="" class="valign techLogo">
+            </div>
+
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/angular.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/vs.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/aspnet.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/aws.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/yo.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/github.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/npm.png" alt="" class="valign techLogo">
+            </div>
+          </div>
+
+            <!-- end 1st large row -->
+          <div class="row no-btm-margin">
+
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/bower.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/browserify.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/grunt.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/firebase.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/sql.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/sas.png" alt="" class="valign techLogo">
+            </div>
+<!--           </div>
+
+          <div class="row no-btm-margin"> -->
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/ps.png" alt="" class="valign techLogo">
+            </div>
+
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/jasmine.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/sass.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/bootstrap.png" alt="" class="valign techLogo">
+            </div>
+            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
+              <img src="/img/tech/materialize_transparent.png" alt="" class="valign techLogo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="/img/macbook1.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="/img/macbook1.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+    <!-- Script files -->
+    <!-- <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/materialize.js"></script>
+    <script src="/js/main.js"></script>
+
   </body>
 </html>
