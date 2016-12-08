@@ -1,169 +1,115 @@
-/*********************
-GENERAL
-*********************/
-body {
-  font-family: 'Open Sans', sans-serif;
+nav ul a,
+nav .brand-logo {
+  color: #444;
 }
-/* LINKS */
-a {
-  text-decoration: none;
-  color: #6ab47b;
-}
-#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding:0 5%;
-}
-/* site body */
-body {
-  background-color: white;
-  color:#999;
+body > div.navbar-fixed > nav > div > ul.section.table-of-contents.right.hide-on-med-and-down > li > a {
+  color: white;
 }
 
-img {
-  max-width: 100%;
-}
-h3 {
-  margin: 0 0 1em 0;
-}
-/*********************
-HEADING
-*********************/
-
-header {
-  float: left;
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
-  width: 100%;
-}
-/* green header */
-header {
-  background: #6ab47b;
-  border-color:#599a68;
+.table-of-contents a.active {
+  border-left: 3px solid #2196F3;
 }
 
-h1 {
-  font-family: 'Changa One', sans-serif;
-  margin: 15px 0;
-  font-size: 1.75em;
-  font-weight:normal;
-  line-height:0.8em;
+body > div.navbar-fixed > nav {
+  opacity: 0.9;
 }
-h2 {
-  font-size: 0.75em;
-  margin: -5px 0 0;
-  font-weight:normal;
+
+#sidenav-overlay {
+  z-index: inherit;
 }
-#logo {
-  text-align: center;
+
+#nav-mobile > li > a:hover {
+  background-color: rgba(0,126,255,0.87);
+}
+
+#sig-container {
+  width: 20%;
+  max-height: 60px;
+  margin-top: 5px;
+  position: inherit;
+}
+
+p {
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
   margin: 0;
 }
-/* logo text */
-h1, h2 {
-  color: white;
-}
-/*********************
-NAVIGATION
-*********************/
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-}
-nav li {
-  display: inline-block;
-}
-nav a {
-  font-weight: 800;
-  padding: 15px 10px;
-}
-nav {
-text-align: center;
-padding: 10px, 0;
-margin:20px 0 0;
-}
-/* nav background for mobile devices */
-nav {
-  border-color:#599a68;
-  background-color: #5da26d;
-}
-/* nav links */
-nav a, nav a:visited {
-  color: white;
-}
-/* selected nav link */
-nav a.selected, nav a:hover {
-  color:#32673f;
-}
-/*********************
-FOOTER
-*********************/
-footer {
-font-size: 0.75em;
-  text-align:center;
-  clear:both;
-  padding-top: 50px;
+/*TECHNOLOGY SECTION ---------------------*/
+#technology {
+  width: 100%;
   color: #ccc;
 }
-.social-icon {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
-}
-/*********************
-PAGE: HOME
-*********************/
-#gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+
+.techLogoDiv {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-#gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #bdc3c7;
+.techLogo {
+  margin: auto;
+  width: 60px;
 }
-#gallery li a p{
-  margin: 0;
-  padding:5%;
-  font-size: 0.5em;
-  color: #bdc3c7;
-}
-/*********************
-PAGE: ABOUT
-*********************/
-
-.profile-photo {
-  display:block;
-  max-width: 150px;
-  margin: 0 auto 30px;
-  border-radius: 100%;
-}
-/*********************
-PAGE: Contact
-*********************/
-
-.contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
-}
-.contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat:no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
+.no-btm-margin {
+  margin-bottom: 0;
 }
 
-.contact-info li.phone a {
-  background-image: url('../img/phone.png')
+/*CONTACT SECTION ------------------------------*/
+#contact {
+  background-color: #212121 ;
+  color: #f5f5f5;
 }
-.contact-info li.mail a {
-  background-image: url('../img/mail.png')
+
+#contact p {
+  margin: 5px 0;
 }
+
+#contact a {
+  color: #f5f5f5;
+}
+
+#contact a:hover {
+  color: #2196F3;
+}
+
+#icon_prefix, #icon_prefix2, #icon_prefix3 {
+  background-color: black;
+  opacity: 0.9;
+}
+
