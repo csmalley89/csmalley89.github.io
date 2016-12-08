@@ -1,261 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Chris Smalley | Software Developer</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="/css/materialize.min.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <script src="https://use.fontawesome.com/e2992a68a7.js"></script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Chris Smalley | Software Developer</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="/css/materialize.min.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/e2992a68a7.js">
+  </script>
+</head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Chris Smalley</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#technology">Technologies</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#technology">Technologies</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse blue-text accent-2"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-
-  <div id="index-banner" class="parallax-container">
+  <div class="navbar-fixed">
+    <nav class="black" role="navigation">
+      <div class="nav-wrapper container">
+        <img class="hide-on-med-and-down" id="sig-container" src="img/signature.png"> <a class="hide-on-large-only brand-logo" href="#" id="logo-container">Chris Smalley</a>
+        <ul class="section table-of-contents right hide-on-med-and-down">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#technology">Technologies</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <ul class="side-nav" id="nav-mobile">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#technology">Technologies</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul><a class="button-collapse blue-text accent-2" data-activates="nav-mobile" href="#"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
+  <div class="parallax-container" id="index-banner">
     <div class="section no-pad-bot">
       <div class="container">
-        <br><br>
-<!--         <h1 class="header center text-light">Hi I'm <span class="blue-text accent-2">Chris Smalley</span></h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Full-Stack Developer from Nashville, TN</h5>
-        </div>
-        <div class="row center hide-on-small-only">
-          <div class="col m3"><img src="/img/squarepic.jpg" alt="" class="circle responsive-img"></div>
-        </div> -->
+        <br>
+        <br>
         <div class="row">
-          <div class="col m3 hide-on-small-only">
-            <img src="/img/squarepic.jpg" alt="" class="circle responsive-img">
+          <div class="col m3 hide-on-small-only"><img alt="" class="circle responsive-img" src="/img/squarepic.jpg"></div>
+          <div class="col s12 m8 offset-m1">
+            <h1 class="header center-align text-light">Hi I'm <span class="blue-text accent-2">Chris Smalley</span></h1>
+            <h5 class="header center col s12 light">Full-Stack Developer from Nashville, TN</h5>
           </div>
-          <div class="col s12 m8 offset-m1"><h1 class="header center-align  text-light">Hi I'm <span class="blue-text accent-2">Chris Smalley</span></h1>
-          <h5 class="header center col s12 light">Full-Stack Developer from Nashville, TN</h5></div>
-        </div>
-        <br><br>
-
+        </div><br>
+        <br>
       </div>
     </div>
-    <div class="parallax"><img src="/img/macbookbw.jpg" alt="macbook background img 1"></div>
+    <div class="parallax"><img alt="macbook background img 1" src="/img/macbookbw.jpg"></div>
   </div>
-<!-- Technolgy Section -->
-  <div id="technology" class="grey darken-4">
-    <div class="section">
-      <div class="container">
-
-        <div class="row no-btm-margin">
-            <h4 class="header center">Technology</h4>
-          <div class="row no-btm-margin">
-
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/html5.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/css3.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/jslogo.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/jquery.png" alt="" class="valign techLogo">
-            </div>
-
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/angular.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/vs.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/csharp.png" alt="" class="valign techLogo">
-            </div>
-
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/githubwhite.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/npm.png" alt="" class="valign techLogo">
-            </div>
-
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/bower.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/browserify.png" alt="" class="valign techLogo">
-            </div>
-          </div>
-
-
-          <div class="row no-btm-margin">
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/grunt.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/firebase.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/sql.png" alt="" class="valign techLogo">
-            </div>
-<!--           </div>
-
-          <div class="row no-btm-margin"> -->
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/ps.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/jasmine.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/sass.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/bootstrap.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/materialize_transparent.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/aspnet.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/aws.png" alt="" class="valign techLogo">
-            </div>
-            <div class="col s3 m2 l1 techLogoDiv valign-wrapper">
-              <img src="/img/tech/yo.png" alt="" class="valign techLogo">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="/img/macbook1.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
+  <!-- About Me Section -->
+  <div class="section scrollspy" id="about">
+    <div class="container">
       <div class="row">
         <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <h3>About Me</h3>
+          <p class="left-align">As long as I can remember I have enjoyed working with computers. From learning HTML in middle school for personal websites that predated Myspace to removing viruses off my families computers--was something that always came natural to me.<br>
+          <br>
+          Unfortunately in college I forgot about this passion until I was working on MBA. My first semester I was placed in what quickly became my favorite class, Managerial Decision Making. This computer information systems class used advanced Excel functions to solve complex problems. After that class, I was hooked again, and used my remaining electives on computer science classes.<br>
+          <br>
+          Graduating with my MBA in 2012, I moved from Kentucky to Nashville. After a few years of a successful career in Sales, I couldn't shake this feeling that something was missing. Needless to say I quit my job in June 2016 to attend Nashville Software School, and haven't looked back since. From day one, it was clear that working as a developer is what I was meant to do.</p>
+        </div>
+      </div>
+    </div>
+  </div><!-- Technolgy Section -->
+  <div class="section scrollspy grey darken-4" id="technology">
+    <div class="container">
+      <div class="row no-btm-margin">
+        <h4 class="header center">Technology</h4>
+        <div class="row no-btm-margin">
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/html5.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/css3.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/jslogo.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/jquery.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/angular.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/vs.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/csharp.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/githubwhite.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/npm.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/bower.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/browserify.png"></div>
+        </div>
+        <div class="row no-btm-margin">
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/grunt.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/firebase.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/sql.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/ps.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/jasmine.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/sass.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/bootstrap.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/materialize_transparent.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/aspnet.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/aws.png"></div>
+          <div class="col s3 m2 l1 techLogoDiv valign-wrapper"><img alt="" class="valign techLogo" src="/img/tech/yo.png"></div>
+        </div>
+      </div>
+    </div>
+  </div><!--   Project/Portfolio section  -->
+  <div class="section scrollspy" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <h4 class="header center">Portfolio</h4>
+        <h5 class="header center light-blue-text darken-3">Below is a sample of few projects I have done. Click the project to view more info.</h5><br>
+        <br>
+        <div class="col s12 m8 offset-m2">
+          <div class="card grey darken-4">
+            <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="img/app/gauntlet.gif"></div>
+            <div class="card-content">
+              <span class="card-title activator light-blue-text darken-3">Gauntlet<i class="material-icons right light-blue-text darken-3">more_vert</i></span> <a href="https://github.com/nss-day-cohort-15/https-github-com-nashville-software-school-gauntlet-team-cflz" target="_blank">
+              <p><i aria-hidden="true" class="fa fa-github"></i>View on GitHub</p></a>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title light-blue-text darken-3">Gauntlet<i class="material-icons right light-blue-text darken-3">close</i></span>
+              <p>Gauntlet was a simple web-based RPG that lets a human player fight against an array of different enemies. Working with three other developers we built this fun game in three days. Using javascript and bootstrap the game features some basic animations each time the player use the attack button. Our purpose in building this application was to reinforce our understanding of prototypal inheritance prior to learning the AngularJS framework.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m8 offset-m2">
+          <div class="card grey darken-4">
+            <div class="card-image waves-effect waves-block waves-light"><img class="activator" src="img/app/wedreg.gif"></div>
+            <div class="card-content">
+              <span class="card-title activator light-blue-text darken-3">WedReg<i class="material-icons right light-blue-text darken-3">more_vert</i></span> <a href="https://github.com/csmalley89/wedReg" target="_blank">
+              <p><i aria-hidden="true" class="fa fa-github"></i>View on GitHub</p></a>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title light-blue-text darken-3">WedReg<i class="material-icons right light-blue-text darken-3">close</i></span>
+              <p>WedReg is a web application built to allow multiple people to contribute to a single item on a couples wedding registry. Thus allowing people to register for items for "big ticket" items such as sectionals or 70" TVs in addition to traditional wedding registry items. WedReg was built in two weeks as part of my front-end capstone project at Nashville Software School. The project was built using the Amazon Advertising API, Firebase, AngularJS, and JQuery.</p>
+            </div>
+          </div>
         </div>
       </div>
 
     </div>
   </div>
-
-
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <div class="row">
+          <h4 class="header center">Send Me a Message or See my Contact Info Below</h4>
+          <form action="https://formspree.io/chrism.smalley@gmail.com" method="post">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i> <input id="icon_prefix" name="name" type="text"> <label for="icon_prefix">Name</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">email</i> <input id="icon_prefix2" name="_replyto" type="email"> <label for="icon_prefix">Email</label>
+            </div>
+            <div class="input-field col s12">
+              <i class="material-icons prefix">mode_edit</i> <input id="icon_prefix3" name="_message" type="text"> <label for="icon_prefix3">Message</label>
+            </div>
+            <div class="col s12 center-align">
+              <input class="waves-effect waves-light btn" type="submit" value="Send">
+            </div>
+          </form>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="/img/macbook1.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img alt="Unsplashed background img 3" src="/img/macbookpic.jpg"></div>
   </div>
-
-
-  <div id="contact">
+  <div class="section scrollspy" id="contact">
     <div class="section">
       <div class="container center-align">
         <div class="row no-btm-margin">
           <div class="col s12">
-            <h5>Contact</h5>
+            <h5>Contact Info</h5>
           </div>
           <div class="col s12 m4">
-            <a href="mailto:chrism.smalley@gmail.com"><p><i class="fa fa-envelope" aria-hidden="true"></i> chrism.smalley@gmail.com</p></a>
+            <a href="mailto:chrism.smalley@gmail.com">
+            <p><i aria-hidden="true" class="fa fa-envelope"></i> chrism.smalley@gmail.com</p></a>
           </div>
           <div class="col s12 m4">
-            <a href="https://github.com/csmalley89" target="_blank"><p><i class="fa fa-github" aria-hidden="true"></i> GitHub</p></a>
+            <a href="https://github.com/csmalley89" target="_blank">
+            <p><i aria-hidden="true" class="fa fa-github"></i> GitHub</p></a>
           </div>
           <div class="col s12 m4">
-            <a href="https://www.linkedin.com/pub/chris-smalley/63/2a4/8a2" target="_blank"><p><i class="fa fa-linkedin-square" aria-hidden="true"></i> linkedIn</p></a>
+            <a href="https://www.linkedin.com/pub/chris-smalley/63/2a4/8a2" target="_blank">
+            <p><i aria-hidden="true" class="fa fa-linkedin-square"></i> linkedIn</p></a>
           </div>
-
         </div>
-
       </div>
     </div>
   </div>
-
   <footer class="page-footer grey darken-4">
     <div class="footer-copyright black">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://www.chrismsmalley.com">Chris Smalley</a>
+        Made by <a class="brown-text text-lighten-3" href="http://www.chrismsmalley.com">Chris Smalley</a>
       </div>
     </div>
-  </footer>
-
-    <!-- Script files -->
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/materialize.js"></script>
-    <script src="/js/main.js"></script>
-
-  </body>
-</html>
+  </footer><!-- Script files -->
+  <script src="/js/jquery.min.js">
+  </script>
+  <script src="/js/materialize.js">
+  </script>
+  <script src="/js/main.js">
+  </script>
+</body>

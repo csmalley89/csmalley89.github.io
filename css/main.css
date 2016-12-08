@@ -1,14 +1,32 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
 nav ul a,
 nav .brand-logo {
   color: #444;
+}
+body > div.navbar-fixed > nav > div > ul.section.table-of-contents.right.hide-on-med-and-down > li > a {
+  color: white;
+}
+
+.table-of-contents a.active {
+  border-left: 3px solid #2196F3;
+}
+
+body > div.navbar-fixed > nav {
+  opacity: 0.9;
+}
+
+#sidenav-overlay {
+  z-index: inherit;
+}
+
+#nav-mobile > li > a:hover {
+  background-color: rgba(0,126,255,0.87);
+}
+
+#sig-container {
+  width: 20%;
+  max-height: 60px;
+  margin-top: 5px;
+  position: inherit;
 }
 
 p {
@@ -26,15 +44,11 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
+.parallax-container .section {
     width: 100%;
   }
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
   #index-banner .section {
     top: 10%;
   }
@@ -45,6 +59,7 @@ p {
     top: 0;
   }
 }
+
 
 .icon-block {
   padding: 0 15px;
@@ -92,3 +107,9 @@ footer.page-footer {
 #contact a:hover {
   color: #2196F3;
 }
+
+#icon_prefix, #icon_prefix2, #icon_prefix3 {
+  background-color: black;
+  opacity: 0.9;
+}
+

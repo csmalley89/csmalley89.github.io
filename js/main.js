@@ -2,6 +2,7 @@
   $(function(){
 
     $('.button-collapse').sideNav();
+    $('.scrollspy').scrollSpy();
     $('.parallax').parallax();
 
   }); // end of document ready
